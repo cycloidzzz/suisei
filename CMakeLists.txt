@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED on)
 set(CMAKE_CXX_EXTENSION off)
 
 # Boost Coroutine
-include(cmake/findboost.cmake)
+include(cmake/findBoost.cmake)
 
 add_executable(main src/main.cc)
 
